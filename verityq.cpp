@@ -39,7 +39,7 @@ void ask(int num) {
     std::cout << "============ QUIZ ============\n";
 
     std::cout << questions[num];
-    std::cin >> ans;
+    std::getline(std::cin, ans);
 
     std::cout << "==============================\n";
 }
