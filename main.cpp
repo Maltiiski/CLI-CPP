@@ -34,8 +34,8 @@ int main() {
         result = num1 / num2;
         std::cout << "result: " << result << '\n';
         break;
-    
     default:
+        std::cout << "Invalid Response\n";
         break;
     }
 
