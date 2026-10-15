@@ -1,10 +1,14 @@
 #include <iostream>
+#include <string>
+#include <vector>
+#include <array>
 
 int main() {
     char op;
     double num1;
     double num2;
     double result;
+    std::array<char, 4> opers{'+', '-', '*', '/'};
 
     std::cout << "================ CALCULATOR ================\n";
 
@@ -16,6 +20,17 @@ int main() {
     
     std::cout << "Enter n2: ";
     std::cin >> num2;
+    
+
+    for (char o : opers) {
+        if (o == op)
+        {
+            std::cout << o << " " << op << '\n';
+
+        }
+        
+    }
+    
 
     switch (op){
     case '+':
