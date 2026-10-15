@@ -17,6 +17,28 @@ int main() {
     std::cout << "Enter n2";
     std::cin >> num2;
 
+    switch (op){
+    case '+':
+        result = num1 + num2;
+        std::cout << "result: " << result << '\n';
+        break;
+    case '-':
+        result = num1 - num2;
+        std::cout << "result: " << result <<'\n';
+        break;
+    case '*':
+        result = num1 * num2;
+        std::cout << "result: " << result << '\n';
+        break;
+    case '/':
+        result = num1 / num2;
+        std::cout << "result: " << result << '\n';
+        break;
+    
+    default:
+        break;
+    }
+
     std::cout << "============================================\n";
 
     return 0;
