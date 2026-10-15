@@ -11,10 +11,10 @@ int main() {
     std::cout << "Enter (+ - * /): ";
     std::cin >> op;
 
-    std::cout << "Enter n1";
+    std::cout << "Enter n1: ";
     std::cin >> num1;
     
-    std::cout << "Enter n2";
+    std::cout << "Enter n2: ";
     std::cin >> num2;
 
     switch (op){
